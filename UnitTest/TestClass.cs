@@ -10,4 +10,10 @@ public class TestClass
     {
         Assert.Equal(4 , Program.Add(2,2));
     }
+
+    [Fact]
+    public void FallingAddTest()
+    {
+        Assert.NotEqual(5, Program.Add(2, 2));
+    }
 }
