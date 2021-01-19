@@ -13,5 +13,10 @@ namespace UnitTest
         {
             return x + y;
         }
+        
+        public static bool IsOdd(int value)
+        {
+            return value % 2 == 1;
+        }
     }
 }
